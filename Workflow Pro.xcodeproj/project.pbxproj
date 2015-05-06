@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134DDF961AFA608500F7BB5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 134DDF951AFA608500F7BB5D /* AppDelegate.m */; };
+		134DDF981AFA608500F7BB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 134DDF971AFA608500F7BB5D /* main.m */; };
+		134DDF9A1AFA608500F7BB5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134DDF991AFA608500F7BB5D /* Images.xcassets */; };
+		134DDF9D1AFA608500F7BB5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 134DDF9B1AFA608500F7BB5D /* MainMenu.xib */; };
+		134DDFA91AFA608500F7BB5D /* Workflow_ProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 134DDFA81AFA608500F7BB5D /* Workflow_ProTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		134DDFA31AFA608500F7BB5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 134DDF871AFA608500F7BB5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 134DDF8E1AFA608500F7BB5D;
+			remoteInfo = "Workflow Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		134DDF8F1AFA608500F7BB5D /* Workflow Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workflow Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		134DDF931AFA608500F7BB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		134DDF941AFA608500F7BB5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		134DDF951AFA608500F7BB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		134DDF971AFA608500F7BB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		134DDF991AFA608500F7BB5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		134DDF9C1AFA608500F7BB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		134DDFA21AFA608500F7BB5D /* Workflow ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workflow ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		134DDFA71AFA608500F7BB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		134DDFA81AFA608500F7BB5D /* Workflow_ProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Workflow_ProTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		134DDF8C1AFA608500F7BB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134DDF9F1AFA608500F7BB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134DDF861AFA608500F7BB5D = {
+			isa = PBXGroup;
+			children = (
+				134DDF911AFA608500F7BB5D /* Workflow Pro */,
+				134DDFA51AFA608500F7BB5D /* Workflow ProTests */,
+				134DDF901AFA608500F7BB5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		134DDF901AFA608500F7BB5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134DDF8F1AFA608500F7BB5D /* Workflow Pro.app */,
+				134DDFA21AFA608500F7BB5D /* Workflow ProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		134DDF911AFA608500F7BB5D /* Workflow Pro */ = {
+			isa = PBXGroup;
+			children = (
+				134DDF941AFA608500F7BB5D /* AppDelegate.h */,
+				134DDF951AFA608500F7BB5D /* AppDelegate.m */,
+				134DDF991AFA608500F7BB5D /* Images.xcassets */,
+				134DDF9B1AFA608500F7BB5D /* MainMenu.xib */,
+				134DDF921AFA608500F7BB5D /* Supporting Files */,
+			);
+			path = "Workflow Pro";
+			sourceTree = "<group>";
+		};
+		134DDF921AFA608500F7BB5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				134DDF931AFA608500F7BB5D /* Info.plist */,
+				134DDF971AFA608500F7BB5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		134DDFA51AFA608500F7BB5D /* Workflow ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				134DDFA81AFA608500F7BB5D /* Workflow_ProTests.m */,
+				134DDFA61AFA608500F7BB5D /* Supporting Files */,
+			);
+			path = "Workflow ProTests";
+			sourceTree = "<group>";
+		};
+		134DDFA61AFA608500F7BB5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				134DDFA71AFA608500F7BB5D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		134DDF8E1AFA608500F7BB5D /* Workflow Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134DDFAC1AFA608500F7BB5D /* Build configuration list for PBXNativeTarget "Workflow Pro" */;
+			buildPhases = (
+				134DDF8B1AFA608500F7BB5D /* Sources */,
+				134DDF8C1AFA608500F7BB5D /* Frameworks */,
+				134DDF8D1AFA608500F7BB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Workflow Pro";
+			productName = "Workflow Pro";
+			productReference = 134DDF8F1AFA608500F7BB5D /* Workflow Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		134DDFA11AFA608500F7BB5D /* Workflow ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 134DDFAF1AFA608500F7BB5D /* Build configuration list for PBXNativeTarget "Workflow ProTests" */;
+			buildPhases = (
+				134DDF9E1AFA608500F7BB5D /* Sources */,
+				134DDF9F1AFA608500F7BB5D /* Frameworks */,
+				134DDFA01AFA608500F7BB5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				134DDFA41AFA608500F7BB5D /* PBXTargetDependency */,
+			);
+			name = "Workflow ProTests";
+			productName = "Workflow ProTests";
+			productReference = 134DDFA21AFA608500F7BB5D /* Workflow ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		134DDF871AFA608500F7BB5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Capture Integration, Inc";
+				TargetAttributes = {
+					134DDF8E1AFA608500F7BB5D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					134DDFA11AFA608500F7BB5D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 134DDF8E1AFA608500F7BB5D;
+					};
+				};
+			};
+			buildConfigurationList = 134DDF8A1AFA608500F7BB5D /* Build configuration list for PBXProject "Workflow Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 134DDF861AFA608500F7BB5D;
+			productRefGroup = 134DDF901AFA608500F7BB5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				134DDF8E1AFA608500F7BB5D /* Workflow Pro */,
+				134DDFA11AFA608500F7BB5D /* Workflow ProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		134DDF8D1AFA608500F7BB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134DDF9A1AFA608500F7BB5D /* Images.xcassets in Resources */,
+				134DDF9D1AFA608500F7BB5D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134DDFA01AFA608500F7BB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		134DDF8B1AFA608500F7BB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134DDF981AFA608500F7BB5D /* main.m in Sources */,
+				134DDF961AFA608500F7BB5D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134DDF9E1AFA608500F7BB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134DDFA91AFA608500F7BB5D /* Workflow_ProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		134DDFA41AFA608500F7BB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 134DDF8E1AFA608500F7BB5D /* Workflow Pro */;
+			targetProxy = 134DDFA31AFA608500F7BB5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		134DDF9B1AFA608500F7BB5D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				134DDF9C1AFA608500F7BB5D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		134DDFAA1AFA608500F7BB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		134DDFAB1AFA608500F7BB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		134DDFAD1AFA608500F7BB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Workflow Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		134DDFAE1AFA608500F7BB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Workflow Pro/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		134DDFB01AFA608500F7BB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Workflow ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workflow Pro.app/Contents/MacOS/Workflow Pro";
+			};
+			name = Debug;
+		};
+		134DDFB11AFA608500F7BB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Workflow ProTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workflow Pro.app/Contents/MacOS/Workflow Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		134DDF8A1AFA608500F7BB5D /* Build configuration list for PBXProject "Workflow Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134DDFAA1AFA608500F7BB5D /* Debug */,
+				134DDFAB1AFA608500F7BB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		134DDFAC1AFA608500F7BB5D /* Build configuration list for PBXNativeTarget "Workflow Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134DDFAD1AFA608500F7BB5D /* Debug */,
+				134DDFAE1AFA608500F7BB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		134DDFAF1AFA608500F7BB5D /* Build configuration list for PBXNativeTarget "Workflow ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				134DDFB01AFA608500F7BB5D /* Debug */,
+				134DDFB11AFA608500F7BB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 134DDF871AFA608500F7BB5D /* Project object */;
+}
